@@ -827,3 +827,117 @@ body {
 .mewmew2 img {
     width: 100%;
 }
+
+/* ===================== Responsive cho mobile ===================== */
+@media only screen and (max-width: 768px) {
+
+    .formInput {
+        width: 90%;
+        top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .boxHands h1 {
+        font-size: 30px;
+    }
+
+    .boxSlider {
+        margin-top: 40px;
+    }
+
+    .listSlider {
+        width: 150px;
+        height: 80px;
+    }
+
+    .listSlider img {
+        width: 150px;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .boxSlider .left {
+        left: 10px;
+        font-size: 24px;
+    }
+
+    .boxSlider .right {
+        right: 10px;
+        font-size: 24px;
+    }
+
+    .boxHandsInput {
+        width: 80%;
+        flex-direction: column;
+        top: 10px;
+    }
+
+    .boxHandsInput input {
+        font-size: 16px;
+        height: 28px;
+    }
+
+    .handsCatImgInput {
+        width: 50px;
+        top: -100%;
+    }
+
+    .buttonLove {
+        width: 30px;
+        margin-top: 15px;
+    }
+
+    .buttonLove .button {
+        font-size: 10px;
+    }
+
+    .boxCar img {
+        width: 200px;
+    }
+
+    .ground-line div {
+        width: 1000px;
+    }
+
+    .wrapperLetterForm .boxLetter .formLetter {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+        flex-direction: column;
+    }
+
+    .textLetter {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .textLetter h2 {
+        font-size: 20px;
+    }
+
+    .textLetter .contentLetter {
+        font-size: 14px;
+    }
+
+    .giftbox .img {
+        width: 120px;
+        left: 20px;
+    }
+
+    .mewmew1,
+    .mewmew2 {
+        width: 60px;
+    }
+
+    .loadingLove .rhombus {
+        height: 50px;
+        width: 50px;
+    }
+
+    .rhombus .circle1,
+    .rhombus .circle2 {
+        height: 25px;
+        width: 25px;
+    }
+
+}
